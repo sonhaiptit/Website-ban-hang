@@ -48,7 +48,53 @@
     </button>
     </div>
 {% endblock banner_slider %}
-
 {% block main-content %}
-    Your Welcome
+    <div class="row">
+        {% comment %} Sản phẩm 1 {% endcomment %}
+        <div class="col-lg-3">
+            <img class="thumbnail" src="{% static 'app/images/cow-ghee.png' %} ">
+            <div class="box-element product">
+                <h6><strong>Sản Phẩm 1</strong></h6>
+                <hr>
+                <button class "btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="#">Xem</a>
+                <h4 style="display: inline-block; float: right"><strong>200.000 VND</strong></h4>
+            </div>
+        </div>
+        {% comment %} Sản phẩm 2 {% endcomment %}
+        <div class="col-lg-3">
+            <img class="thumbnail" src="{% static 'app/images/curd-premium.png' %} ">
+            <div class="box-element product">
+                <h6><strong>Sản Phẩm 2</strong></h6>
+                <hr>
+                <button class "btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="#">Xem</a>
+                <h4 style="display: inline-block; float: right"><strong>200.000 VND</strong></h4>
+            </div>
+        </div>
+        {% comment %} Sản phẩm 3 {% endcomment %}
+        <div class="col-lg-3">
+            <img class="thumbnail" src="{% static 'app/images/cow-milk.png' %} ">
+            <div class="box-element product">
+                <h6><strong>Sản Phẩm 3</strong></h6>
+                <hr>
+                <button class "btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="#">Xem</a>
+                <h4 style="display: inline-block; float: right"><strong>200.000 VND</strong></h4>
+            </div>
+        </div>
+        {% comment %} Sản phẩm 4 {% endcomment %}
+        <div class="col-lg-3">
+            <img class="thumbnail" src="{% static 'app/images/buffalo-ghee.png' %} ">
+            <div class="box-element product">
+                <h6><strong>Sản Phẩm 4</strong></h6>
+                <hr>
+                <button class "btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="#">Xem</a>
+                <h4 style="display: inline-block; float: right"><strong>200.000 VND</strong></h4>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br />
+
 {% endblock main-content %}
